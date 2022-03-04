@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    username: guest
+    password: guest
+    virtual-host: guest
+    addresses: 127.0.0.1:5672
+rmq-adepts:
+  # 测试channel  最大连接数 3000，如果开启多线程 1跳线程将占用1个连接，线程总和不能超过这里的设置的值。可以不设置，
+  # connection-limit: 3000
